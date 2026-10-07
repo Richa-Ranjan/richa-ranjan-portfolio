@@ -101,11 +101,7 @@ export default function App() {
             <Reveal><Resume /></Reveal>
           </section>
 
-          <section id="beyond" className="sec" aria-labelledby="h-bd">
-            <Reveal as="h2" className="h2"><span id="h-bd">Outside the code</span></Reveal>
-            <p className="lead">More about me.</p>
-            <Reveal><Beyond /></Reveal>
-          </section>
+         
 
           <section id="contact" className="sec" aria-label="Contact"><Contact visitor={visitor} /></section>
         </main>
